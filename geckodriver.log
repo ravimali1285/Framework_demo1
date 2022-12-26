@@ -151,3 +151,14 @@ WebDriver BiDi listening on ws://127.0.0.1:51659
 console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ravim\\AppData\\Local\\Temp\\rust_mozprofileRgJwbx\\search.json.mozlz4", (void 0)))
 DevTools listening on ws://127.0.0.1:51659/devtools/browser/3f7c01bc-4805-44ba-9f1a-82ba4de546bf
 1671970994135	Marionette	INFO	Stopped listening on port 51681
+1671971055615	geckodriver	INFO	Listening on 127.0.0.1:51761
+1671971058720	mozrunner::runner	INFO	Running command: "C:\\Program Files\\Mozilla Firefox\\firefox.exe" "--marionette" "--remote-debugging-port" "51762" "--remote-allow-hosts" "localhost" "-no-remote" "-profile" "C:\\Users\\ravim\\AppData\\Local\\Temp\\rust_mozprofileVHXASZ"
+1671971059162	Marionette	INFO	Marionette enabled
+1671971059168	Marionette	INFO	Listening on port 51789
+Read port: 51789
+WebDriver BiDi listening on ws://127.0.0.1:51762
+1671971059350	RemoteAgent	WARN	TLS certificate errors will be ignored for this session
+console.warn: SearchSettings: "get: No settings file exists, new profile?" (new NotFoundError("Could not open the file at C:\\Users\\ravim\\AppData\\Local\\Temp\\rust_mozprofileVHXASZ\\search.json.mozlz4", (void 0)))
+DevTools listening on ws://127.0.0.1:51762/devtools/browser/6532245a-2400-4e1f-bf9b-d7f76fe383d0
+1671971066535	Marionette	INFO	Stopped listening on port 51789
+!!! error running onStopped callback: TypeError: callback is not a function
